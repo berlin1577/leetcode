@@ -10,9 +10,9 @@ func binarysearch(nums []int, target int) int {
 		if nums[mid] == target {
 			return mid
 		}else if nums[mid] > target {
-			high--
+			high = mid - 1
 		}else {
-			low++
+			low = mid + 1
 		}
 	}
 	return -1
