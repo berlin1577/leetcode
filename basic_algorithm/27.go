@@ -1,4 +1,4 @@
-package base
+package basic_algorithm
 
 func removeElement(nums []int, val int) int {
 	i, j, k := 0, 0, 0

@@ -1,4 +1,4 @@
-package base
+package basic_algorithm
 
 import "sort"
 

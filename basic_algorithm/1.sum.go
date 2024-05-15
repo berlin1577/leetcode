@@ -1,4 +1,4 @@
-package base
+package basic_algorithm
 
 // 1.熟悉go语言基本语法
 // 2.使用hashmap来空间换时间

@@ -1,14 +1,14 @@
-package base
+package basic_algorithm
 
 func search(nums []int, target int) int {
-	low, high := 0, len(nums) - 1
+	low, high := 0, len(nums)-1
 	for low <= high {
-		mid := low + (high - low)/2
+		mid := low + (high-low)/2
 		if target == nums[mid] {
 			return mid
-		}else if target < nums[mid] {
+		} else if target < nums[mid] {
 			high = mid - 1
-		}else {
+		} else {
 			low = mid + 1
 		}
 	}

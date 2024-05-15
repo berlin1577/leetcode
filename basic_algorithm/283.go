@@ -1,4 +1,4 @@
-package base
+package basic_algorithm
 
 //本题是双指针类型的题，双指针类型有快慢指针
 
