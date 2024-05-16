@@ -5,7 +5,7 @@ import "math"
 //最小覆盖子串
 
 // 使用valid来记录t中的某个字符是否已经在滑动窗口中全部集齐
-func minWindow(s string, t string) string {
+func MinWindow(s string, t string) string {
 	need, window := map[byte]int{}, map[byte]int{}
 	for i, _ := range t {
 		need[t[i]]++
