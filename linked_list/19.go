@@ -4,9 +4,9 @@ package linked_list
  * Definition for singly-linked list.
  * type ListNode struct {
  *     Val int
- *     Next *ListNode
+*     Next *ListNode
  * }
- */
+*/
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	dummy := &ListNode{-1, head}
 	slow, fast := dummy, head
