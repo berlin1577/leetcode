@@ -1,5 +1,6 @@
 package basic_algorithm
 
+// defeat 5%需要完善
 func getWinner(arr []int, k int) int {
 	if k == 1 {
 		return max(arr[0], arr[1])
@@ -20,7 +21,7 @@ func getWinner(arr []int, k int) int {
 	return arr[0]
 }
 
-// 超时
+// 超时，不需要将整个数组的元素迁移，将j特殊处理即可
 func getWinner1(arr []int, k int) int {
 	if len(arr) < 2 {
 		return -1
