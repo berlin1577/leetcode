@@ -1,6 +1,9 @@
 package main
 
-import "LeetCode/basic_algorithm"
+import (
+	"LeetCode/basic_algorithm"
+	"fmt"
+)
 
 func main() {
 	//s := "ADOBECODEBANC"
@@ -8,6 +11,6 @@ func main() {
 	////ans := basic_algorithm.MinWindow(s, t)
 	//fmt.Println(ans)
 	basic_algorithm.Test()
-	//fmt.Println("fdfs")
+	fmt.Println("fdfs")
 	//basic_algorithm.Test()
 }
